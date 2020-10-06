@@ -1,0 +1,109 @@
+/*HEADER*/
+
+.hero-image {
+    background-size: cover; 
+    height: 508px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    border: solid white;
+}
+
+.rounded-image {
+    position: absolute;
+    left: 60%;
+    top: 110%;
+}
+
+.icons {
+   display: flex;
+   justify-content: flex-end;
+   width: 300px;
+}
+
+.linkedin-icon{
+    border: solid white;
+    border-radius: 50%;
+    padding: 5px;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.git-hub-icon {
+    border: solid white;
+    border-radius: 50%;
+    padding: 5px;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.stackoverflow-icon {
+    border: solid white;
+    border-radius: 50%;
+    padding: 5px;
+    width: 18px;
+    height: 18px;
+}
+
+.header {
+    position: relative;
+    color: white;
+}
+  
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    width: 250px;
+}
+  
+.portfolio {
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 20px;
+    display: inline-block;
+    font-weight: 300;
+}
+
+.name {
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+}
+
+.occupation {
+    font-size: 25px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.occupation-additional {
+    font-size: 16px;
+    font-family:'Montserrat', sans-serif;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 5px;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media (min-width:668px) and (max-width: 1023px) {
+
+
+
+
+}
+
+@media (min-width:1024px) {
+}
