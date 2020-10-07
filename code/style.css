@@ -5,14 +5,10 @@ body {
 
 /*HEADER*/
 
-.hero-image {
-    background-size: cover; 
-    height: 508px;
-}
-
 .profile-image {
     border-radius: 50%;
     border: solid #ffffff;
+    width: 150px;
 }
 
 .rounded-image {
@@ -60,6 +56,9 @@ a:hover {
 .header {
     position: relative;
     color: #ffffff;
+    background-image: url(/assets/organicPattern_Soheb\ Zaidi.jpg);
+    background-size: cover; 
+    height: 508px;
 }
   
 .header-text {
@@ -133,7 +132,7 @@ h2 {
     padding: 30px;
 }
 
-.tech-info > h4 {
+.pink-header {
     background-color: #c62a88;
     color: #ffffff;
     display: inline-block;
@@ -146,22 +145,11 @@ h2 {
 
 /* FEATURED PROJECTS*/
 
-.my-projects {
+.projects {
     text-align: center;
     height: auto;
     background-color: #F4F4F4;
     padding: 30px; 
-}
-
-.my-projects > h4 {
-    background-color: #c62a88;
-    color: #ffffff;
-    display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 19px;
 }
 
 .my-projects img {
@@ -198,20 +186,29 @@ h2 {
 
 /*OTHER PROJECTS*/
 
-.other-projects {
+.header-normal {
+    color: #c62a88;
+    font-size: 19px;
+    padding-top: 40px;
+}
+
+/*MY THOUGHTS*/
+
+.articles {
     text-align: center;
 }
 
-.my-other-projects {
-    text-align: left;
-    padding: 30px;
-    padding-top: 5px;
+/*SKILLS*/
+.tools {
+    text-align: center;
 }
 
-.other-projects > h4 {
-    color: #c62a88;
-    font-size: 19px;
+
+/*FOR MORE*/
+.social-media {
+    text-align: center;
 }
+
 
 /*FOOTER*/
 .contact-info {
@@ -239,4 +236,54 @@ h2 {
 }
 
 @media (min-width:1024px) {
+
+    /*HEADER*/
+
+    .header-text {
+        width: 500px;
+    }
+
+    .portfolio, .name {
+        font-size: 18px;    
+    }
+    
+    .occupation {
+        font-size: 40px;
+    }
+    
+    .occupation-additional {
+        font-size: 30px;
+    }
+
+    .rounded-image {        
+        left: 150%;
+        top: 45%;      
+    }
+
+    .profile-image {
+        width: 300px;
+    }
+
+    .icons {
+        width: 970px;
+        margin-top: 70px;
+    }
+
+    .linkedin-icon, .git-hub-icon, .stackoverflow-icon {
+        margin-right: 15px;   
+    }
+    
+    /*ABOUT ME*/
+
+    .about-me {
+        padding-right: 300px;
+        padding-left: 300px;
+    }
+
+    /* TECH INFO*/
+
+    .tech-info {
+        padding-right: 600px;
+        padding-left: 600px;
 }
+}   
