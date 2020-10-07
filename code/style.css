@@ -18,35 +18,33 @@ body {
 }
 
 .icons {
-   display: flex;
-   justify-content: flex-end;
-   width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
 }
 
-.linkedin-icon{
-    border: solid #ffffff;
+.linkedin-icon, .github-icon, .stackoverflow-icon {
+    border: solid #ffffff 2px;
     border-radius: 50%;
     padding: 5px;
     width: 18px;
     height: 18px;
     margin-right: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
 }
 
-.git-hub-icon {
-    border: solid #ffffff;
-    border-radius: 50%;
-    padding: 5px;
-    width: 18px;
-    height: 18px;
-    margin-right: 5px;
+.linkedin-icon {
+    background-image: url(/assets/linkedinWhite.svg);
+}
+
+.github-icon {
+    background-image: url(/assets/githubWhite.svg);
 }
 
 .stackoverflow-icon {
-    border: solid #ffffff;
-    border-radius: 50%;
-    padding: 5px;
-    width: 18px;
-    height: 18px;
+    background-image: url(/assets/stackOverflowWhite.svg);
 }
 
 a:hover {
@@ -80,6 +78,7 @@ a:hover {
 .name {
     font-size: 11px;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     display: inline-block;
 }
 
@@ -152,11 +151,32 @@ h2 {
     padding: 30px; 
 }
 
+.my-projects {
+    font-family: 'Roboto', sans-serif;
+}
+
 .my-projects img {
     height: 200px;
     width: 100%;
     object-fit: cover;
 }
+
+.image-info {
+    text-align: left;
+}
+
+/* .weather-image {
+    position: relative;
+    color: #ffffff;
+}
+
+.image-header {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+} */
 
 .tags {
     display: flex;
@@ -209,6 +229,40 @@ h2 {
     text-align: center;
 }
 
+.icons-bottom {
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+}
+
+
+.linkedin-icon-bottom, .github-icon-bottom, .stackoverflow-icon-bottom {
+    border: solid #FF0000 2px;
+    border-radius: 50%;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.linkedin-icon-bottom {
+    background-image: url(/assets/linkedinColor.svg);
+}
+
+.github-icon-bottom {
+    background-image: url(/assets/githubColor.svg);
+}
+
+.stackoverflow-icon-bottom {
+    background-image: url(/assets/stackOverflowColor.svg)
+}
+
+a:hover {
+    background-color: #ffffff;
+}
 
 /*FOOTER*/
 .contact-info {
@@ -248,7 +302,7 @@ h2 {
     }
     
     .occupation {
-        font-size: 40px;
+        font-size: 50px;
     }
     
     .occupation-additional {
@@ -266,18 +320,25 @@ h2 {
 
     .icons {
         width: 970px;
-        margin-top: 70px;
+        margin-top: 70px; 
     }
 
-    .linkedin-icon, .git-hub-icon, .stackoverflow-icon {
-        margin-right: 15px;   
+    .linkedin-icon, .github-icon, .stackoverflow-icon {
+        margin-right: 15px;
+        width: 60px;
+        height: 60px;          
     }
-    
+
     /*ABOUT ME*/
 
     .about-me {
         padding-right: 300px;
         padding-left: 300px;
+        font-size: 30px;
+    }
+
+    .pink-header {
+        font-size: 48px;
     }
 
     /* TECH INFO*/
@@ -285,5 +346,57 @@ h2 {
     .tech-info {
         padding-right: 600px;
         padding-left: 600px;
+        font-size: 30px;
+    }   
+
+
+    /* FEATURED PROJECTS*/
+
+    .my-projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .my-projects img {
+        width: 500px;
+        height: 300px;
+    }
+
+    .image-1, .image-2, .image-3, .image-4 {
+        width: 500px;
+        padding-right: 30px;
+    }
+   .image-info {
+       font-size: 20px;
+   }
+
+   /*FOR MORE*/
+
+   /*  .icons-bottom {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: ;
+    }       */ 
+
+   .linkedin-icon-bottom, .github-icon-bottom, .stackoverflow-icon-bottom {
+          width: 80px;
+          height: 80px;
+          background-size: 50%;
 }
-}   
+
+
+
+    /*FOOTER*/
+
+    .contact-info > h4 {
+        font-size: 38px;
+    }
+    
+    .roboto-style {
+        font-size: 30px;
+    }
+
+}
