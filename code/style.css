@@ -24,7 +24,7 @@ body {
 }
 
 .linkedin-icon, .github-icon, .stackoverflow-icon {
-    border: solid #ffffff 2px;
+    border: solid #ffffff 3px;
     border-radius: 50%;
     padding: 5px;
     width: 18px;
@@ -98,6 +98,8 @@ h1 {
 h2 {
     margin-top: 5px;
 }
+
+/*PARAGRAPH STARTER "LOLLIPOP"*/
 
 .dot {
     height: 10px;
@@ -185,12 +187,10 @@ h2 {
     margin-bottom: 30px;
 }
 
-.HTML, .CSS, .JS {
-    margin-right: 5px;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 0;
+.tags div {
     background-color: #03c4a1;
+    margin-right: 5px;
+    padding: 5px;
 }
 
 .highlight {
@@ -231,10 +231,10 @@ h2 {
 
 .icons-bottom {
     display: flex;
-    justify-content: flex-end;
-    width: 300px;
+    justify-content: center;    
+    margin-right: auto;
+    margin-left: auto;
 }
-
 
 .linkedin-icon-bottom, .github-icon-bottom, .stackoverflow-icon-bottom {
     border: solid #FF0000 2px;
@@ -260,10 +260,6 @@ h2 {
     background-image: url(/assets/stackOverflowColor.svg)
 }
 
-a:hover {
-    background-color: #ffffff;
-}
-
 /*FOOTER*/
 .contact-info {
     background-color: #150485;
@@ -284,9 +280,34 @@ a:hover {
 
 @media (min-width:668px) and (max-width: 1023px) {
 
+.my-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
 
+.my-projects img {
+    width: 500px;
+    height: 300px;
+    }
 
+.image-1, .image-2, .image-3, .image-4 {
+    width: 500px;
+    padding-right: 30px;
+}
 
+.about-me {
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.tech-info {
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
+}
 }
 
 @media (min-width:1024px) {
@@ -369,8 +390,18 @@ a:hover {
         width: 500px;
         padding-right: 30px;
     }
+
    .image-info {
        font-size: 20px;
+   }
+
+   .header-normal {
+       font-size: 38px;
+   }
+
+   .my-other-projects {
+       font-size: 20px;
+       text-decoration: underline;
    }
 
    /*FOR MORE*/
@@ -398,5 +429,4 @@ a:hover {
     .roboto-style {
         font-size: 30px;
     }
-
 }
