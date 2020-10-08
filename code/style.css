@@ -167,6 +167,10 @@ h2 {
     text-align: left;
 }
 
+a:link {
+    text-decoration: none;
+}
+
 /* .weather-image {
     position: relative;
     color: #ffffff;
