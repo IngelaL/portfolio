@@ -130,7 +130,7 @@ h2 {
 
 .tech-info {
     text-align: center;
-    padding: 30px;
+    padding: 50px;
 }
 
 .pink-header {
@@ -150,7 +150,7 @@ h2 {
     text-align: center;
     height: auto;
     background-color: #F4F4F4;
-    padding: 30px; 
+    padding: 50px; 
 }
 
 .my-projects {
@@ -206,8 +206,21 @@ a:link {
 
 /*MY THOUGHTS*/
 
-.articles {
+.my-thoughts {
+    padding: 50px;
     text-align: center;
+}
+
+.article-1 img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+}
+
+.image-info {
+    max-width: 500px;
+    justify-content: center;
 }
 
 /*SKILLS*/
@@ -215,6 +228,7 @@ a:link {
 .skills {
     background-color: #F4F4F4;
     text-align: center;
+    padding: 50px;
 }
 
 .tools {
@@ -231,6 +245,11 @@ a:link {
 }
 
 /*FOR MORE*/
+
+.for-more {
+    padding: 50px;
+}
+
 .social-media {
     text-align: center;
 }
@@ -243,7 +262,7 @@ a:link {
 }
 
 .linkedin-icon-bottom, .github-icon-bottom, .stackoverflow-icon-bottom {
-    border: solid #FF0000 2px;
+    border: solid #c62a88 2px;
     border-radius: 50%;
     padding: 5px;
     width: 40px;
@@ -419,6 +438,18 @@ a:link {
 
    .tools {
        font-size: 25px;
+   }
+
+   /*MY THOUGHTS*/
+   
+   .articles {
+       display: flex;
+       justify-content: center;
+   }
+
+   .article-1 img {
+       width: 500px;
+       height: 300px;
    }
 
    /*FOR MORE*/
