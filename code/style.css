@@ -228,7 +228,6 @@ a:link {
 .skills {
     background-color: #F4F4F4;
     text-align: center;
-    padding: 50px;
 }
 
 .tools {
@@ -286,6 +285,7 @@ a:link {
 }
 
 /*FOOTER*/
+
 .contact-info {
     background-color: #150485;
     color: #ffffff;
@@ -305,33 +305,48 @@ a:link {
 
 @media (min-width:668px) and (max-width: 1025px) {
 
-.my-projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-left: 200px;
-    padding-right: 200px;
-}
+    /*FEATURED PROJECTS*/
 
-.my-projects img {
-    width: 500px;
-    height: 300px;
+    .my-projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 200px;
+        padding-right: 200px;
     }
 
-.image-1, .image-2, .image-3, .image-4 {
-    width: 500px;
-    padding-right: 30px;
-}
+    .my-projects img {
+        width: 500px;
+        height: 300px;
+    }
 
-.about-me {
-    padding-right: 150px;
-    padding-left: 150px;
-}
+    .image-1, .image-2, .image-3, .image-4 {
+        width: 500px;
+        padding-right: 30px;
+    }
 
-.tech-info {
-    text-align: center;
-    padding-right: 100px;
-    padding-left: 100px;
+    .about-me {
+        padding-right: 150px;
+        padding-left: 150px;
+    }
+
+/*TECH*/
+
+    .tech-info {
+        text-align: center;
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
+/*THOUGHTS*/
+    .article-1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .article-1 img {
+        width: 500px;
+        padding-right: 30px;
 }
 }
 
@@ -395,7 +410,6 @@ a:link {
         font-size: 30px;
     }   
 
-
     /* FEATURED PROJECTS*/
 
     .my-projects {
@@ -418,39 +432,39 @@ a:link {
 
    .image-info {
        font-size: 20px;
-   }
+    }
 
    .tags {
        font-size: 13px;
-   }
+    }
 
    .header-normal {
        font-size: 38px;
-   }
+    }
 
    .my-other-projects {
        font-size: 20px;
        text-decoration: underline;
        margin-right: 300px;
-   }
+    }
 
    /*TOOLS*/
 
    .tools {
        font-size: 25px;
-   }
+    }
 
    /*MY THOUGHTS*/
    
    .articles {
        display: flex;
        justify-content: center;
-   }
+    }
 
    .article-1 img {
        width: 500px;
        height: 300px;
-   }
+    }
 
    /*FOR MORE*/
 
