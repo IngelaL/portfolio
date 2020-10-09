@@ -169,20 +169,8 @@ h2 {
 
 a:link {
     text-decoration: none;
+    text-decoration-color: black;
 }
-
-/* .weather-image {
-    position: relative;
-    color: #ffffff;
-}
-
-.image-header {
-    position: absolute;
-    top: 50%;
-    left: 45%;
-    transform: translate(-50%, -50%);
-    text-align: left;
-} */
 
 .tags {
     display: flex;
@@ -223,10 +211,24 @@ a:link {
 }
 
 /*SKILLS*/
-.tools {
+
+.skills {
+    background-color: #F4F4F4;
     text-align: center;
 }
 
+.tools {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 80px;
+    margin-right: 80px; 
+    padding-bottom: 80px;   
+}
+
+.pink-h4 {
+    color: #c62a88; 
+}
 
 /*FOR MORE*/
 .social-media {
@@ -282,7 +284,7 @@ a:link {
 
 /*MEDIA QUERIES*/
 
-@media (min-width:668px) and (max-width: 1023px) {
+@media (min-width:668px) and (max-width: 1025px) {
 
 .my-projects {
     display: flex;
@@ -399,6 +401,10 @@ a:link {
        font-size: 20px;
    }
 
+   .tags {
+       font-size: 13px;
+   }
+
    .header-normal {
        font-size: 38px;
    }
@@ -409,21 +415,19 @@ a:link {
        margin-right: 300px;
    }
 
+   /*TOOLS*/
+
+   .tools {
+       font-size: 25px;
+   }
+
    /*FOR MORE*/
 
-   /*  .icons-bottom {
-        display: flex;
-        justify-content: flex-end;
-        margin-right: ;
-    }       */ 
-
    .linkedin-icon-bottom, .github-icon-bottom, .stackoverflow-icon-bottom {
-          width: 80px;
-          height: 80px;
-          background-size: 50%;
-}
-
-
+        width: 80px;
+        height: 80px;
+        background-size: 50%;
+    }
 
     /*FOOTER*/
 
