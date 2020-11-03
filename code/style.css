@@ -314,7 +314,43 @@ a:link {
 
 /*MEDIA QUERIES*/
 
-@media (min-width:668px) and (max-width: 1025px) {
+@media (min-width:668px) and (max-width: 1249px) {
+
+    /*HEADER*/
+    .rounded-image {        
+        left: 132%;
+        top: 45%;      
+    }
+
+    .profile-image {
+        width: 200px;
+    }
+    
+    .rounded-image {        
+        left: 102%;
+        top: 85%;      
+    }
+
+    .profile-image {
+        width: 180px;
+    }
+
+    .icons {
+        width: 420px;
+        margin-top: 70px; 
+    }
+
+    .occupation {
+        font-size: 30px;
+    }
+    
+    .occupation-additional {
+        font-size: 15px;
+    }
+
+    .portfolio, .name {
+        font-size: 15px;    
+    }
 
     /*FEATURED PROJECTS*/
 
@@ -371,7 +407,7 @@ a:link {
     }
 }
 
-@media (min-width:1024px) {
+@media (min-width:1250px) {
 
     /*HEADER*/
 
@@ -392,7 +428,7 @@ a:link {
     }
 
     .rounded-image {        
-        left: 150%;
+        left: 132%;
         top: 45%;      
     }
 
@@ -426,8 +462,8 @@ a:link {
     /* TECH INFO*/
 
     .tech-info {
-        padding-right: 600px;
-        padding-left: 600px;
+        padding-right: 200px;
+        padding-left: 200px;
         font-size: 30px;
     }   
 
