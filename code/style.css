@@ -36,15 +36,15 @@ body {
 }
 
 .linkedin-icon {
-    background-image: url(/assets/linkedinWhite.svg);
+    background-image: url(./assets/linkedinWhite.svg);
 }
 
 .github-icon {
-    background-image: url(/assets/githubWhite.svg);
+    background-image: url(./assets/githubWhite.svg);
 }
 
 .stackoverflow-icon {
-    background-image: url(/assets/stackOverflowWhite.svg);
+    background-image: url(./assets/stackOverflowWhite.svg);
 }
 
 a:hover {
@@ -54,7 +54,7 @@ a:hover {
 .header {
     position: relative;
     color: #ffffff;
-    background-image: url(/assets/organicPattern_Soheb\ Zaidi.jpg);
+    background-image: url(./assets/organicPattern_Soheb\ Zaidi.jpg);
     background-size: cover; 
     height: 508px;
 }
@@ -284,15 +284,15 @@ a:link {
 }
 
 .linkedin-icon-bottom {
-    background-image: url(/assets/linkedinColor.svg);
+    background-image: url(./assets/linkedinColor.svg);
 }
 
 .github-icon-bottom {
-    background-image: url(/assets/githubColor.svg);
+    background-image: url(./assets/githubColor.svg);
 }
 
 .stackoverflow-icon-bottom {
-    background-image: url(/assets/stackOverflowColor.svg)
+    background-image: url(./assets/stackOverflowColor.svg)
 }
 
 /*FOOTER*/
@@ -483,12 +483,12 @@ a:link {
     }
 
    .article-1 img {
+       margin-right: 30px;
        width: 500px;
        height: 300px;
     }
 
     .article-2 img {
-       margin-left: 20px;
        width: 500px;
        height: 300px;
     }
