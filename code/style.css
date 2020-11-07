@@ -47,7 +47,7 @@ body {
     background-image: url(./assets/stackOverflowWhite.svg);
 }
 
-a:hover {
+.linkedin-icon:hover, .github-icon:hover, .stackoverflow-icon:hover {
     background-color: #c62a88;
 }
 
