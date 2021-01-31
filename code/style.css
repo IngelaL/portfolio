@@ -367,7 +367,7 @@ a:link {
         height: 300px;
     }
 
-    .image-1, .image-2, .image-3, .image-4 {
+    .image {
         width: 500px;
         padding-right: 30px;
     }
@@ -482,7 +482,7 @@ a:link {
         height: 300px;
     }
 
-    .image-1, .image-2, .image-3, .image-4 {
+    .image {
         width: 500px;
         padding-right: 30px;
     }
@@ -502,7 +502,6 @@ a:link {
    .my-other-projects {
        font-size: 20px;
        text-decoration: underline;
-       margin-right: 300px;
     }
 
    /*TOOLS*/
